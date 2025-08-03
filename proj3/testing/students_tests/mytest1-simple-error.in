@@ -1,0 +1,13 @@
+# Runs a few commands and errors every time
+> log
+Not in an initialized Gitlet directory.
+<<<
+> rm a.txt
+Not in an initialized Gitlet directory.
+<<<
+> checkout this
+Not in an initialized Gitlet directory.
+<<<
+> add everything
+Not in an initialized Gitlet directory.
+<<<

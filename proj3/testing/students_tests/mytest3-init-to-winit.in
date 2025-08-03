@@ -1,0 +1,17 @@
+> init
+<<<
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
++ g.txt wug.txt
++ f.txt notwug.txt
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
+> add g.txt
+<<<
+> commit "leaving f.txt behind"
+<<<
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<

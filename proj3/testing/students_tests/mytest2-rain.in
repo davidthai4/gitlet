@@ -1,0 +1,38 @@
+>init
+<<<
++ f.txt wug.txt
+> add f.txt
+<<<
++ g.txt g.txt
+> add notwug.txt
+File does not exist.
+<<<
+> add g.txt
+<<<
+> checkout master
+No need to checkout the current branch.
+<<<
+> checkout rain
+No such branch exists.
+<<<
+> commit
+Please enter a commit message.
+<<<
+> commit "2 files to the new commit"
+<<<
+> branch rain
+<<<
+> status
+=== Branches ===
+*master
+rain
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
