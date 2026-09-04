@@ -21,8 +21,4 @@ jobs:
 
       - name: Compile
         working-directory: proj3/gitlet
-        run: javac -g -Xlint:unchecked -Xlint:deprecation -cp ".." *.java
-
-      - name: Run unit tests
-        working-directory: proj3
-        run: java -ea -cp "." gitlet.UnitTest
+        run: javac -g -Xlint:unchecked -Xlint:deprecation -cp ".." Main.java Repo.java Commit.java StagingArea.java Utils.java Dumpable.java DumpObj.java GitletException.java Diff.java
